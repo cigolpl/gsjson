@@ -50,17 +50,17 @@ A spreadsheet ID can be extracted from its URL.
 ## Usage (public Spreadsheets)
 
 ```
-gsjson abc123456789 data.json
+gsjson abc123456789
 ```
 
 
 ## Usage (private Spreadsheets)
 
 ```
-gsjson abc123456789 data.json -t authtoken
+gsjson abc123456789 -t authtoken
 ```
 
-## node module
+## Usage (node module)
 
 ```js
 var gsjson = require('gsjson')
