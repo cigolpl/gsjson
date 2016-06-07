@@ -1,4 +1,4 @@
-google-spreadsheet-to-json
+gsjson
 ==========================
 
 [![NPM version](https://badge.fury.io/js/google-spreadsheet-to-json.png)](http://badge.fury.io/js/google-spreadsheet-to-json)
