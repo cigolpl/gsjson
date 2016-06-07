@@ -6,10 +6,16 @@ google-spreadsheet-to-json
 A simple Node.js command-line tool to export Google Spreadsheets to JSON files.
 
 
-## Installation
+## Installation as CLI
 
 ```
-npm install -g google-spreadsheet-to-json
+npm install -g gsjson
+```
+
+## Installation as node module
+
+```
+npm install gsjson --save
 ```
 
 
