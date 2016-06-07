@@ -54,6 +54,25 @@ gsjson abc123456789 data.json
 gsjson abc123456789 data.json -t authtoken
 ```
 
+## node module
+
+```js
+var gsjson = require('gsjson')
+
+
+gsjson({
+  spreadsheetId: 'spreadsheetId',
+  token: 'token'
+})
+.then(function(res) {
+  console.log(res);
+  console.log(res.length);
+})
+.catch(function(err) {
+  console.log(err.stack);
+})
+```
+
 
 ## Known issues
 
@@ -75,7 +94,7 @@ gsjson abc123456789 data.json -t authtoken
 
 Command:
 ```
-gsjson abc123456789 data.json -b
+gsjson abc123456789 -b
 ```
 
 Output:
@@ -112,7 +131,7 @@ Output:
 
 Command:
 ```
-gsjson abc123456789 data.json -b -c id
+gsjson abc123456789 -b -c id
 ```
 
 Output:
@@ -149,7 +168,7 @@ Output:
 
 Command:
 ```
-gsjson abc123456789 data.json -b -l
+gsjson abc123456789 -b -l
 ```
 
 Output:
@@ -187,7 +206,7 @@ Output:
 
 Command:
 ```
-gsjson abc123456789 data.json -i
+gsjson abc123456789 -i
 ```
 
 Output:
